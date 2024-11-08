@@ -6,7 +6,7 @@
    srcset=".github/logo_dark.svg">
   <img
    width="260"
-   alt="Frappe Drive logo" 
+   alt="tele ERP Drive logo" 
    src=".github/logo_light.svg">
 </picture>
 

@@ -9,7 +9,7 @@
     <FrappeDriveLogo class="w-8 h-8 rounded" />
     <div v-if="isExpanded" class="ml-2 flex flex-col">
       <div class="text-base font-medium text-gray-900 leading-none">
-        Frappe Drive
+      tele ERP Drive
       </div>
     </div>
   </button>
