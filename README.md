@@ -48,9 +48,9 @@
 
 > **Warning**
 >
-> Frappe Drive is currently in beta, and will let breaking changes through, **do not** use it as your sole backup/data storage.
+> tele ERP Drive is currently in beta, and will let breaking changes through, **do not** use it as your sole backup/data storage.
 
-> **Note:** Frappe Drive is not currently accepting pull requests. File an issue to open a discussion to discuss an idea/feature request.
+> **Note:** tele ERP Drive is not currently accepting pull requests. File an issue to open a discussion to discuss an idea/feature request.
 
 ### Features
 
@@ -62,7 +62,7 @@
 - Add files or folders to _favourites_ to make them easily accessible.
 - Use the Search Bar to search for any file or folder in your Drive.
 - Supports sharing files and folders with individual users and user groups.
-- Ships with a robust document editor that seamlessly integrates with Frappe Drive and supports real time collaborative editing.
+- Ships with a robust document editor that seamlessly integrates with tele ERP Drive and supports real time collaborative editing.
 
 ### Installation
 
@@ -72,7 +72,7 @@ To set up the repository locally, follow the steps mentioned below:
 
 1. Move into your `frappe-bench` directory and get the Drive app
    ```sh
-   bench get-app https://github.com/frappe/drive
+   bench get-app https://github.com/sewunet/drive
    ```
 1. Create a new site
 
@@ -111,7 +111,7 @@ To set up the repository locally, follow the steps mentioned below:
 There are many ways you can contribute even if you don't code:
 
 1. You can start by giving a star to this repository!
-1. If you find any issues, even if it is a typo, you can [raise an issue](https://github.com/frappe/drive/issues/new) to inform us.
+1. If you find any issues, even if it is a typo, you can [raise an issue](https://github.com/sewunet/drive/issues/new) to inform us.
 <!-- If you want to contribute code then you can fork this repo, make changes and raise a PR. ([see how to](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)) -->
 
 ### License
@@ -120,7 +120,7 @@ There are many ways you can contribute even if you don't code:
 
 ### Warning
 
-Frappe drive is currently marked as **beta** expect breaking changes between versions.
+tele ERP drive is currently marked as **beta** expect breaking changes between versions.
 
 <!-- # Docker
 
@@ -141,7 +141,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 ### Step 1: Cloning frappe_docker repo
 
 ```shell
-git clone https://github.com/frappe/frappe_docker.git
+git clone https://github.com/sewunet/frappe_docker.git
 cd frappe_docker
 ```
 
@@ -243,7 +243,7 @@ bench use mydrive.localhost
 ### Step 10: Install the Drive app onto the site created
 
 ```shell
-bench get-app https://github.com/frappe/drive
+bench get-app https://github.com/sewunet/drive
 
 bench --site mydrive.localhost install-app drive
 ```
