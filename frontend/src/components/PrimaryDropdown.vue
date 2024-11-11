@@ -56,7 +56,6 @@
 import { Dropdown, FeatherIcon } from "frappe-ui"
 import SettingsDialog from "@/components/Settings/SettingsDialog.vue"
 import FrappeDriveLogo from "@/components/FrappeDriveLogo.vue"
-import Docs from "@/components/EspressoIcons/Docs.vue"
 
 export default {
   name: "PrimaryDropdown",
@@ -97,16 +96,10 @@ export default {
                 window.location.href = "/app"
               },
             },
-            {
-              icon: Docs,
-              label: "Documentation",
-              onClick: () =>
-                window.open("https://docs.frappe.io/drive", "_blank"),
-            },
-            {
+             {
               icon: "life-buoy",
               label: "Support",
-              onClick: () => window.open("https://t.me/frappedrive", "_blank"),
+              onClick: () => window.open("https://t.me/tele_help", "_blank"),
             },
           ],
         },
